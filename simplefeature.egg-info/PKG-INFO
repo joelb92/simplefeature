@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: simplefeature
-Version: 1.1
+Version: 1.1.2
 Summary: UNKNOWN
 Home-page: https://github.com/joelb92/simplefeature
 Author: D.D. Cox, and N. Pinto, Joel Brogan
@@ -25,15 +25,19 @@ This repository provides an incredibly light-weight implementation of the gray-s
 
 ## Use
 
-1. `pip install simplefeat` or 
+`pip install simplefeature` 
+   
+or
+
    `git clone https://github.com/joelb92/simplefeature.git && cd simplefeat && python setup.py install`
-2. ~~~
-   git clone https://code.ornl.gov/ii1/briar-api.git`
+
+
+~~~
    import simplefeature
    import cv2
    im = cv2.imread("/home/face.jpg")
    embedding = simplefeature.extract(im) 
-   ~~~
+~~~
 
 Inputs will be scaled to 200x200px
 The system outputs a 51200-d vector

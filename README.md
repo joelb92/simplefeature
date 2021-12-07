@@ -3,17 +3,19 @@ This repository provides an incredibly light-weight implementation of the gray-s
 
 ## Use
 
-1. `pip install simplefeature` 
+`pip install simplefeature` 
    
 or
 
    `git clone https://github.com/joelb92/simplefeature.git && cd simplefeat && python setup.py install`
-2. ~~~
+
+
+~~~
    import simplefeature
    import cv2
    im = cv2.imread("/home/face.jpg")
    embedding = simplefeature.extract(im) 
-   ~~~
+~~~
 
 Inputs will be scaled to 200x200px
 The system outputs a 51200-d vector

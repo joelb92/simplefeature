@@ -3,7 +3,7 @@ from skimage.util.shape import view_as_windows
 import numexpr as ne
 import cv2
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 # simpler data structure
 (FILT, ACTV, POOL, NORM) = range(4)
 (FSIZ, FNUM, FWGH) = range(3)
