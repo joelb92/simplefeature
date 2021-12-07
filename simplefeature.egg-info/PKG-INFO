@@ -4,8 +4,20 @@ Version: 1.0
 Summary: UNKNOWN
 Home-page: https://github.com/joelb92/simplefeature
 Author: D.D. Cox, and N. Pinto, Joel Brogan
+Author-email: joelbrogan92@gmail.com
 License: UNKNOWN
 Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/markdown
 License-File: LICENSE.txt
 
 simple bio-inspired features

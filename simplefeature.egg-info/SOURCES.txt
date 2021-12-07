@@ -5,4 +5,5 @@ setup.py
 simplefeature.egg-info/PKG-INFO
 simplefeature.egg-info/SOURCES.txt
 simplefeature.egg-info/dependency_links.txt
+simplefeature.egg-info/requires.txt
 simplefeature.egg-info/top_level.txt
