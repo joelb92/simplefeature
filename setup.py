@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(name='simplefeature',
-      version='1.0',
+      version='1.1.1',
       description='',
       long_description=long_description,
       author='D.D. Cox, and N. Pinto, Joel Brogan',

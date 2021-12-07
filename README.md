@@ -3,10 +3,12 @@ This repository provides an incredibly light-weight implementation of the gray-s
 
 ## Use
 
-1. `pip install simplefeat` or 
+1. `pip install simplefeature` 
+   
+or
+
    `git clone https://github.com/joelb92/simplefeature.git && cd simplefeat && python setup.py install`
 2. ~~~
-   git clone https://code.ornl.gov/ii1/briar-api.git`
    import simplefeature
    import cv2
    im = cv2.imread("/home/face.jpg")
